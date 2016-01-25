@@ -1,0 +1,18 @@
+---
+layout: post
+title: First Post
+---
+
+A short and simple week, but a good start to the new semester.
+
+So far I've mostly just kept tabs on what's coming up in each of my classes, but I have started working on the Collatz project. Originally I thought it would be a breeze, since I did the same project in C++ last semester for the OOP class, but after many hours of implementing optimizations Sphere still thinks my solution is too slow. Perhaps this is a bug? I've posted on Piazza about it and nobody has responded about being able to succeed. In any case, it was actually pretty fun working in all the optimizations. I haven't used Python for a while so it was fun to see just how impactful certain operations can be on time. Additionally, I came across a much faster algorithm for computing Collatz cycle lengths than the standard method of applying 3n+1 or n/2 repeatedly until succeeding. It involves incorporating many of those calculations into much fewer calculations, with the aid of a relatively small number of precached calculations. It was a little hard to understand at first, but once I figured out how it worked I was pretty impressed, both by the cleverness and by how much faster it was than the standard method. So, hopefully I don't have to pick my brain or the web for any solutions crazier than that because it's already taken many hours to get to this point. But if I do have to, then that will definitely occupy me well in the coming week.
+
+Tip of the week:
+
+For detecting even or oddness in Python, using
+
+    if not (x & 1)
+
+is much faster than
+
+    if x % 2 == 0
